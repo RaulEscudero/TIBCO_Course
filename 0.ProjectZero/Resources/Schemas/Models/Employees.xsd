@@ -6,7 +6,7 @@
 	 targetNamespace="http://www.tibco.com/schemas/0.ProjectZero/Resources/Schemas/Models/Employees"
 	 elementFormDefault="qualified"
 	 attributeFormDefault="unqualified">
-	<xs:import namespace="http://www.tibco.com/schemas/0.ProjectZero/Resources/Schemas/Models/Address" schemaLocation="Address"/>
+	<xs:import namespace="http://www.tibco.com/schemas/0.ProjectZero/Resources/Schemas/Models/Address" schemaLocation="Address.xsd"/>
 	<xs:element name="Employees">
 		<xs:complexType>
 			<xs:sequence>
